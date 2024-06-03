@@ -1,0 +1,297 @@
+
+.navbar,.dropdown-menu{
+    background-color: rgba(60,60,60,1);
+}
+
+.buttonsclick{
+    border: 1px solid white;
+    margin: 3px;
+}
+
+.background_image{
+    background-image: url('../media/landing/group.jpg');                      
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.buttonsclick:hover{
+    border: 1px solid white;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none!important;
+}
+
+.hideScrollToTop{
+    display: none;
+}
+
+.horizontalrule{
+    color: blanchedalmond;
+}
+
+.card{
+    height: 100px;
+}
+
+.bttButton:hover{
+    border: 1px solid white;
+}
+
+.wikiheading{
+    font-family: MessengerTexture , sans-serif; 
+    text-align: center;
+    color:#C6AE34;
+}
+
+.wikisub-heading{
+    font-size: 1.2rem;
+}
+
+.paragarphheading{
+    font-family: MessengerTexture , sans-serif; 
+    color:#C6AE34;
+}
+
+.paragarphsubheading{
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.wikibox{
+    color: #fff;
+    background-color: rgba(60,60,60,0.9);
+    width: 100%;
+    height: auto; 
+    padding: 30px; 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+/* ----------------------- wiki videos ------------------------*/
+
+.soilphvideo{
+    text-align: center;
+}
+
+.soilphvideoplayer{
+    width:300px;
+    height:215px;
+}
+
+.videoheading{
+    font-size: 1.5rem;
+}
+
+/* ----------------------- Pest Section -----------------------*/
+
+#pestbuttons{
+    text-align: center;
+}
+
+.pestheading{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pestimage{
+    width: 60%;
+    height: auto;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.pestimagediv,.pestclosebuttondiv,.pestclosebut{
+    text-align: center;
+}
+
+/* ----------------------- wiki images ------------------------*/
+
+.rhzimage{
+    width: 70%;
+    height: auto;
+    border-style: groove;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.trellisimg{
+    width: 50%;
+    height: auto;
+    border-style: groove;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.trenchimg{
+    text-align: center;
+}
+
+.stepstext{
+    margin: auto;
+}
+
+.underimage{
+    padding-top: 20px;
+}
+
+/* ----------------------- wiki Disclaimer ---------------------*/
+
+.disclaimer{
+    font-size: 0.8rem;
+}
+
+/* ------------------- Media Queries base.html -----------------*/
+
+@media only screen and (min-width: 2560px){
+
+    .scrollToTop{
+        right:300px;
+    }
+}
+
+@media only screen and (max-width: 2556px){
+
+    .scrollToTop{
+        right:100px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+
+    .scrollToTop{
+        right:60px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    .scrollToTop{
+        right:20px;
+    }
+}
+
+
+@media only screen and (max-width: 981px){
+    .rhzimage{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    
+    .scrollToTop{
+        right:10px;
+    }
+    .pestimage{
+        width: 80%;
+    }  
+    .soilphvideoplayer{
+        width:230px;
+        height:215px;
+    } 
+    .rhzimage{
+        width: 80%;
+    }
+    .paragarphheading{
+        padding-top: 20px;
+    }
+}  
+
+@media only screen and (max-width: 425px){
+    .wikibox{
+        width: 90%;
+        padding: 10px;
+    }
+    .wikiheading{
+        font-size: 2rem;
+    }
+    .wikisub-heading{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .paragarphheading{
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+    .paragarphsubheading{
+        text-align: center;
+    }
+    .pestimage{
+        width: 90%;
+    }
+    .rhzimage{
+        margin-top: 0px;
+    }
+    .trellisimg{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}    
+   
+
+@media only screen and (max-width: 375px){
+    
+    .wikiheading{
+        font-size: 1.9rem;
+    }
+    .wikisub-heading{
+        font-size: 1.4rem;
+    }
+    .paragarphheading{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .rhzimage{
+        width: 80%;
+    }
+
+}    
+
+
+@media only screen and (max-width: 320px){
+
+    .soilphvideoplayer{
+        width:220px;
+        height:215px;
+    }
+    .wikiheading{
+        font-size: 1.7rem;
+    }
+    .wikisub-heading{
+        font-size: 1.2rem;
+    }
+    .paragarphheading{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .paragarphsubheading{
+        font-size: 1.5rem;
+    }
+    .scrollToTop{
+        top:450px;
+    }
+    .videoheading{
+        font-size: 1.3rem;
+    }
+}
