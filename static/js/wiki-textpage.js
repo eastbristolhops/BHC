@@ -11,7 +11,7 @@ let aphids = `<div class="col-sm-12">
             </div>   
             <div style="text-align: center"> 
             Image courtesy of <a style="color:blue;" href="https://www.gardenersworld.com/how-to/solve-problems/aphids/" target="_blank"> Gardeners World</a></div>
-    <p>
+    <p class="wikisub-heading">
         Aphids are a common garden pest but they can takeover hop plants, they are also key to quite a
         few hop plant disease, they chew into the stems and
         the underside of the leaves sucking on the sap,
@@ -44,7 +44,7 @@ let spider = `<div class="col-sm-12">
         <div style="text-align: center"> 
             Image courtesy of <a style="color:blue; href="https://onspecialtycrops.ca/2015/08/07/watch-out-for-twospotted-spider-mite-on-hops/" target="_blank"> On Speciality Crops</a></div>
 </div>    
-<p>
+<p class="wikisub-heading">
     Although a little less common than Aphids, The most common species of spider-mites that affect hops is the Two-Spotted Spider Mite. 
     They tend to attack in summer if the air is very dry, they attack the underside of the leaves much the same as aphids, the leaves will get light yellow patches and start to brown at the tips, holes can also start to form,
     a real telltale sign of a serious infestation is the leaves will get a webbing form between the leaf spears, generally, at this point the leaves are dead, and the plant will become quite stunted.
@@ -66,7 +66,7 @@ let sooty = ` <div class="col-sm-12">
         <div style="text-align: center; color: blue;"> 
         Image courtesy of unkown
 </div>        
-<p>
+<p class="wikisub-heading">
     Sooty mould causes a layer of black mould the covers leaves and cones, it causes the leaves to
     die back and the bine to wilt, Sooty Mould grows on the honeydew left behind by aphids. To teat
     this mould you have to tackle the aphids that cause it in the first place.
@@ -87,7 +87,7 @@ let mosaic = ` <div class="col-sm-12">
         <div style="text-align: center"> 
         Image courtesy of <a style="color:blue; href="https://www.canr.msu.edu/news/virus_visible_in_michigan_hopyards" target="_blank"> Michighan State University</a></div>
 </div>        
-<p>
+<p class="wikisub-heading">
     Caused once again by aphids, mosaic virus or hop mosaic virus is one of the most serious hop
     plant diseases. It causes yellow and green leaf mottling between the leaf veins and overall
     stunted growth of the plants.
@@ -107,7 +107,7 @@ let vert = ` <div class="col-sm-12">
         <div style="text-align: center"> 
         Image courtesy of <a style="color:blue; href="https://www.britishhops.org.uk/pest-disease/" target="_blank"> British Hops Association</a></div>
 </div>        
-<p>
+<p class="wikisub-heading">
     This is a soil bourn disease, caused by two types of fungus, it causes yellowing of the leaves
     that start at the base of the plant, the bines can also look swollen, brown and discoloured.
     Heavily infected plants tend to die on the string, usually just before or at harvest!
@@ -130,11 +130,11 @@ let mildew = `<div class="col-sm-12">
         <div style="text-align: center"> 
         Image courtesy of <a style="color:blue; href="https://en.wikipedia.org/wiki/Downy_mildew" target="_blank"> Wikipedia</a></div>
 </div>    
-<p>
+<p class="wikisub-heading">
     Downy Mildew, causes the plant to become stunted. The cones brown and curl and the underside of
     leaves become mottled with brown lesions and a yellow halo.
 </p>
-<p>
+<p class="wikisub-heading">
     Powdery Mildew, causes white fungus spots on the leaves. Pale green to yellow spots on the
     leaves
     with white patches on the stems and cones. The plant's growth will be slow and the leaves
@@ -155,7 +155,7 @@ let nute = `<div class="col-sm-12">
         <div style="text-align: center; color:blue;"> 
         Image courtesy of unkown</a>
 </div>    
-<p>
+<p class="wikisub-heading">
     By far the most common problem, other than over or under watering, especially in potted hops plants are nutrient deficiencies. <br>Hops strip the
     soil of nutrients, in the ground decaying plant matter will normally become the food of choice,
     but in pots, they tend to suffer.

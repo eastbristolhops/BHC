@@ -76,9 +76,9 @@ for(let i = 0; i < year.length; i ++){
     beerinfo.innerHTML += `
     <div class="hops_breakdown">
       <div class="col-md-12 pump_clip_image_div">
-        <img class="pump_clip" src="${media_folder}${pumpclip[i]}" alt="${pumpclip[i]} image">
+      <img class="pump_clip" src="${media_folder}${pumpclip[i]}" alt="${pumpclip[i]} image">
       </div>
-        <div class="col-md-12 beerinfodiv"> 
+      <div class="col-md-12 beerinfodiv"> 
             <div class="beerinfo"><strong><i class="fa-solid fa-calendar-days icon"></i> :</strong> ${year[i]}</div>
             <div class="beerinfo"><strong><i class="fa-solid fa-beer-mug-empty icon"></i> :</strong> ${brewery[i]}</div>
             <div class="beerinfo"><strong><i class="fa-regular fa-id-card icon"></i> :</strong> ${beer_name[i]}</div>
