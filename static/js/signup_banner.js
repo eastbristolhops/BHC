@@ -62,7 +62,7 @@ class SpecialSignupBanner extends HTMLElement {
                         <div class="row">
                         <div class="buttons">
                             <a class="modal-button" id="newsAcpt2"
-                                    href="pages/subscribe.html">Signup?</a>
+                                    href="pages/subscribe.html">Subscribe</a>
                             <a type="modal-button" class="close button-move-left" data-bs-dismiss="modal" id="newsAcpt1" 
                                 aria-label="Close">No Thanks!</a>
                         </div>
