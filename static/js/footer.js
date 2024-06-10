@@ -49,14 +49,18 @@ class SpecialFooter extends HTMLElement {
                 <hr style="color: white">
 
                 <div class="row">
-                <div class="col">
-                    <img class="footer-logo"
-                    src="../static/media/logo/logo_green_white.jpg" alt="logo">
-                    <div class="tc">
-                    <div class="copyright-footer">Copyright-&copy; <span id="footeryear"></span>
-                        Bristol Hops Collective </div>
+                    <div class="col-sm-6">
+                        <img class="footer-logo"
+                        src="../static/media/logo/logo_green_white.jpg" alt="logo">
+                        <div class="tc">
+                        <div class="copyright-footer">Copyright-&copy; <span id="footeryear"></span>
+                            Bristol Hops Collective </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="col-sm-6">
+                    <img class="slogan"
+                    src="../static/media/logo/SLOGAN_white.png" alt="logo">
+                    </div>
                 </div>
             </div>
         </footer>

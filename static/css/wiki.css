@@ -20,6 +20,10 @@
     min-height: 100vh;
 }
 
+.text{
+    font-size: 1.3rem;
+}
+
 
 .buttonsclick:hover{
     border: 1px solid white;
@@ -209,6 +213,11 @@
     }
     .paragarphheading{
         padding-top: 20px;
+        text-align: center;
+    }
+    .wikisub-heading{
+        font-size: 1.1rem;
+        text-align: center;
     }
 }  
 
