@@ -55,6 +55,13 @@ customElements.define("special-header", SpecialHeader);
 
 function pagelocation(){
   // Some pages are in the root directory so they can be acceses with a shorter url not containing the /pages
+  let error_page = document.getElementById("404");
+  if(error_page){
+    if(error_page.innerText == "404 Page not found"){
+    return "pages/";
+    }
+  }
+  
   if(window.location.pathname == "/index.html" || window.location.pathname == "/" || 
       window.location.pathname == "/join.html" || window.location.pathname == "/404.html"){
     return "pages/";
