@@ -98,10 +98,23 @@ p{
     font-size: 1rem;
 }
 
+.event_images{
+    width: 40%;
+    height: auto;
+}
+
+.event_image_div{
+    text-align: center;
+    padding: 30px;
+}
+
 
 /* ------------------- Media Queries -----------------*/
 
-@media only screen and (min-width: 981px){
+@media only screen and (max-width: 981px){
+    .event_images{
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -119,10 +132,15 @@ p{
     .logo_overlay{
         width: 40%;
     }
+    .event_images{
+        width: 60%;
+    }
 } 
 
 @media only screen and (max-width: 576px){
-
+    .event_images{
+        width: 80%;
+    }
 
 }    
    
@@ -147,6 +165,9 @@ p{
     .logo_overlay{
         width: 50%;
     }
+    .event_images{
+        width: 80%;
+    }
 }    
     
 @media only screen and (max-width: 375px){
@@ -159,6 +180,9 @@ p{
     }
     .logo_overlay{
         width: 60%;
+    }
+    .event_images{
+        width: 100%;
     }
 }    
     

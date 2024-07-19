@@ -10,8 +10,10 @@ let brewkettleyear = document.getElementById('brewkettleyear');
 let d = new Date().getFullYear();
 brewkettleyear.innerHTML = `${d}`
 
+let media_folder = '../static/media/event_images/';
 let pageNews = document.getElementById("news");
 let pageEvents = document.getElementById("events_and_dates");
+let page_event_images = document.getElementById("event_images");
 let dates_disclaimer = document.getElementById("dates_disclaimer");
 
 
@@ -23,9 +25,15 @@ let updateinfo = () =>{
         }
     }
 
+    if(event_images.length > 0){
+        for(let i = 0; i < event_images.length; i++){
+            page_event_images.innerHTML += `<img class="event_images" src="${media_folder}${event_images[i]}" alt="${event_images}">`;
+        }
+    }
+
     if(events.length > 0){
        for(let i = 0; i < events.length; i++){
-            pageEvents.innerHTML += `<p>${events[i]} - ${events_dates_times[i]? events_dates_times[i] : ""}</p>`;
+            pageEvents.innerHTML += `<p>${events[i]} - <b>${events_dates_times[i]? events_dates_times[i] : ""}</b></p>`;
         }
         dates_disclaimer.innerHTML = `<p class="dates_disclaimer"><i> Dates are subject to change. For updates keep an eye on your inbox. 
         If you're not signed up to the mailing list please do so <a href="pages/subscribe.html"><strong>here</strong></a> to stay up to date with all the hoppy action!</i><p>`
@@ -38,8 +46,10 @@ let updateinfo = () =>{
 
 updateinfo();
 
-const dataPointsPeople = [{ label: "2016", y: 12},{ label: "2017", y: 26},{ label: "2018", y: 27},{label: "2019", y: 32},{ label: "2020", y: 26},{label: "2021", y: 23},{ label: "2022", y: 33},{label: "2023", y: 33}]
-const dataPointsYearYield = [{ label: "2016", y: 7},{ label: "2017", y: 20},{ label: "2018", y: 40.24},{label: "2019", y: 43.34},{ label: "2020", y: 32.52},{label: "2021", y: 45.45},{ label: "2022", y: 56.51},{label: "2023", y: 57.71}]
+const dataPointsPeople = [{ label: "2016", y: 12},{ label: "2017", y: 26},{ label: "2018", y: 27},{label: "2019", y: 32},
+                        { label: "2020", y: 26},{label: "2021", y: 23},{ label: "2022", y: 33},{label: "2023", y: 33}]
+const dataPointsYearYield = [{ label: "2016", y: 7},{ label: "2017", y: 20},{ label: "2018", y: 40.24},{label: "2019", y: 43.34},
+                            { label: "2020", y: 32.52},{label: "2021", y: 45.45},{ label: "2022", y: 56.51},{label: "2023", y: 57.71}]
 
 function get_totals(type){
     let number = 0;
